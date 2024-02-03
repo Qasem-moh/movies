@@ -1,13 +1,14 @@
 import FetchDataMovies from "./Components/FetchDataMovies.tsx";
+import NavBar from "./Components/NavBar.tsx";
 
 function App() {
 
     return (<>
             <div>
-                <h3>Hello</h3>
+                <NavBar/>
                 <FetchDataMovies/>
             </div>
-        </>)
+    </>)
 }
 
 export default App
