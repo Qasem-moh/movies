@@ -1,7 +1,6 @@
 import  {useEffect, useReducer} from 'react';
 import axios from "axios";
 import RenderData from "./RenderData.tsx";
-import * as process from "process";
 
 const initialState = {
     loading: true, error: '', movie: {}

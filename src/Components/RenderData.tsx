@@ -4,7 +4,7 @@ function RenderData({data}) {
     return (
         <div className="container content-center justify-center items-center flex flex-wrap ">
             {
-                data.map((item: { id: number | null | undefined; image: string; title: string | undefined; }) => {
+                data.map((item) => {
                     return(
                         <div className="bg-cyan-300 p-4 shadow-2xl shadow-pink  " key={item.id}>
                             <img className="scale-90 rotate-2 border-b-2  4xl shadow-pink hover:hue-rotate-180  "  src={ImagPath+item.backdrop_path} alt={item.title} />
