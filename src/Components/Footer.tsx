@@ -5,18 +5,9 @@ function Footer() {
         <div className="container-fluid h-auto m-12 p-2.5 border border-gray-200 flex justify-around items-center">
 
             <h3>
-                Footer
-            </h3><h3>
-                Footer
-            </h3><h3>
-                Footer
-            </h3><h3>
-                Footer
-            </h3><h3>
-                Footer
-            </h3><h3>
-                Footer
+               Copyright ©️ 2024 Movie store
             </h3>
+            
 
         </div>
     );
